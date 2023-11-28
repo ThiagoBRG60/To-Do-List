@@ -55,6 +55,7 @@
   .list li img {
     width: 30px;
     height: 30px;
+    margin-top: 50px;
     left: 285px;
   }
 }
