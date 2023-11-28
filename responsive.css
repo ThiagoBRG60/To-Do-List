@@ -1,0 +1,118 @@
+@media (max-width: 430px) {
+  .list-box::-webkit-scrollbar {
+    display: none;
+  }
+  .list-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+  .list-header {
+    width: 100vw;
+    height: 35%;
+    border-radius: 50px 50px 0px 0px;
+  }
+  .list-header h1 {
+    left: 28%;
+    top: 32%;
+    font-size: 2.3rem;
+  }
+  .list-header img {
+    width: 50px;
+    left: 48%;
+    top: 10%;
+  }
+  #input-search {
+    width: 82%;
+    height: 16%;
+    font-size: 18px;
+    top: 52%;
+    left: 10%;
+  }
+  .list-header button {
+    width: 50%;
+    height: 16%;
+    top: 73%;
+    left: 26%;
+    font-size: 1.4rem;
+  }
+  .list {
+    width: 90%;
+    top: 35%;
+  }
+  .list ul {
+    top: 0;
+    left: 0;
+    font-size: 20px;
+  }
+  .list li::before {
+    left: -50px;
+    width: 30px;
+    height: 30px;
+  }
+  .list li img {
+    width: 30px;
+    height: 30px;
+    margin-top: -5%;
+    left: 285px;
+  }
+}
+
+/* largura -- 390px */
+
+@media (max-width: 390px) {
+  .list-header h1 {
+    left: 28%;
+    top: 32%;
+    font-size: 2rem;
+  }
+  .list-header img {
+    left: 46%;
+    top: 5%;
+  }
+  .list li img {
+    left: 260px;
+  }
+}
+
+/* largura -- 375px */
+
+@media (max-width: 375px) {
+  .list li img {
+    left: 240px;
+  }
+}
+
+/* largura -- 360px */
+
+@media (max-width: 360px) {
+  .list li img {
+    left: 230px;
+  }
+}
+
+/* largura -- 280px */
+
+@media (max-width: 280px) {
+  .list-header h1 {
+    left: 28%;
+    top: 34%;
+    font-size: 1.5rem;
+  }
+  .list-header img {
+    width: 40px;
+    left: 46.5%;
+    top: 8%;
+  }
+  .list-header button {
+    font-size: 1rem;
+  }
+  .list li::before {
+    left: -70px;
+  }
+  .list li img {
+    left: 160px;
+  }
+}
